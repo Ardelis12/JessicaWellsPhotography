@@ -1,0 +1,99 @@
+/*font-family: 'Baskervville', serif;
+font-family: 'Istok Web', sans-serif;
+font-family: 'Reenie Beanie', cursive;*/
+
+
+/*******TAG SELECTORS*********/
+
+body {
+    margin: 0;
+}
+
+h1 {
+    display: inline;
+    color:  #bf907b;
+    padding: 50px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2rem;
+}
+
+h2 {
+    color: #bf907b;
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2rem;
+}
+
+
+
+
+/*******CLASS SELECTORS*******/
+
+.arrowup {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-left: -50px;
+    bottom:0px;
+    left: 50vw;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #e6e0e0;
+    z-index: 2;
+}
+
+.mainContainer {
+    margin: 0;
+    background-color: #e6e0e0;
+    text-align: center;
+}
+
+.squareImg {
+    border: 5px #af3a3a;
+    width: 25vw;
+    height: 25vw;
+}
+.squareImg img {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    width: 100vw;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+    z-index: 5;
+}
+.navlink {
+    display: inline;
+    color: #777777;
+    font-family: 'Istok Web', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    
+}
+
+.storybook {
+    display: inline;
+
+}
+
+.frontPage {
+    height: 100vh;
+    margin: 0;
+}
+.frontPage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
